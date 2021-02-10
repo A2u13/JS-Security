@@ -1,3 +1,4 @@
+const scriptName = 'SCU_Zhjw_Helper';
 let body = $response.body;
 let magicJS = MagicJS(scriptName, "INFO");
 
