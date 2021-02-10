@@ -1,5 +1,5 @@
 let body = $response.body;
 
-magicJS.logWarning(body);
+magicJS.logWarning(`Info: ${body} `);
 
 $done({ body })
