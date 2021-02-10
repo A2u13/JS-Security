@@ -2,11 +2,10 @@ function MagicJS(a="MagicJS",b="INFO"){const c={accept:"Accept","accept-ch":"Acc
 
 
 const scriptName = 'SCU_Zhjw_Helper';
-let body = null;
+let body = $response.body;
 let magicJS = MagicJS(scriptName, "INFO");
 
-let html = magicJS.response;
-magicJS.logInfo(`Info: ${html} `);
+magicJS.logInfo(`Info: ${body} `);
 
 $done({ body })
 
