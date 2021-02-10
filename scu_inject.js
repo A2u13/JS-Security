@@ -1,7 +1,8 @@
 const scriptName = 'SCU_Zhjw_Helper';
-let body = $response.body;
+let body = null;
 let magicJS = MagicJS(scriptName, "INFO");
 
-magicJS.logWarning(`Info: ${body} `);
+let html = magicJS.response.body;
+magicJS.logInfo(`Info: ${html} `);
 
 $done({ body })
